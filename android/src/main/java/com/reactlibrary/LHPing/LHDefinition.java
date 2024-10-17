@@ -5,7 +5,8 @@ public class LHDefinition {
         Timeout("0", "PingUtil_Message_Timeout"),
         PreviousPingIsStillRuning("1", "PingUtil_Message_PreviousPingIsStillRuning"),
         HostErrorNotSetHost("2", "PingUtil_Message_HostErrorNotSetHost"),
-        HostErrorUnknown("3", "PingUtil_Message_HostErrorUnknown"),
+        // HostErrorUnknown("3", "PingUtil_Message_HostErrorUnknown"),
+        HostErrorUnknown("3", "Không thể kết nối với máy in"),
         HostErrorHostNotFound("4", "PingUtil_Message_HostErrorHostNotFound"),
         Unknown("5", "PingUtil_Message_Unknown");
         private final String message;
