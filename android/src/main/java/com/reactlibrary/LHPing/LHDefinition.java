@@ -8,7 +8,8 @@ public class LHDefinition {
         // HostErrorUnknown("3", "PingUtil_Message_HostErrorUnknown"),
         HostErrorUnknown("3", "Không thể kết nối với máy in"),
         HostErrorHostNotFound("4", "PingUtil_Message_HostErrorHostNotFound"),
-        Unknown("5", "PingUtil_Message_Unknown");
+        // Unknown("5", "PingUtil_Message_Unknown");
+        Unknown("5", "In không thành công");
         private final String message;
         private final String code;
 
