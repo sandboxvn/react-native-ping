@@ -4,7 +4,8 @@ public class LHDefinition {
     public enum PING_ERROR_CODE {
         Timeout("0", "PingUtil_Message_Timeout"),
         PreviousPingIsStillRuning("1", "PingUtil_Message_PreviousPingIsStillRuning"),
-        HostErrorNotSetHost("2", "PingUtil_Message_HostErrorNotSetHost"),
+        // HostErrorNotSetHost("2", "PingUtil_Message_HostErrorNotSetHost"),
+        HostErrorNotSetHost("2", "Không tìm thấy địa chỉ IP"),
         // HostErrorUnknown("3", "PingUtil_Message_HostErrorUnknown"),
         HostErrorUnknown("3", "Không thể kết nối với máy in"),
         HostErrorHostNotFound("4", "PingUtil_Message_HostErrorHostNotFound"),
